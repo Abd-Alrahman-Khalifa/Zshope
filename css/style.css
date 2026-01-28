@@ -1948,6 +1948,24 @@ justify-content: center;
     .user{
         width: calc(100% );
     }
+        /* card */
+
+    .card{
+        width: 75vw;
+        padding: 5px;
+        height: 95vh;
+    }
+    .card .contant > div > div:first-child{
+        width: 60px;
+        height: 60px;
+        
+    }
+    .card .contant > div > div:first-child img{
+        width: 50px;
+    }
+    .card .contant > div > div:nth-child(2) b{
+        font-size: 14px;  
+    }
 
 }
 
@@ -2058,6 +2076,22 @@ justify-content: center;
     .login > div:last-child > div:last-child button{
         padding: 5px 10px;
     }
+        /* card */
+    .card .contant > div{
+        padding: 12px 5px;    
+    }
+
+    .card .contant > div > div:last-child{
+        gap: 6px;
+    }
+    .card .contant > div > div:last-child span{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .card > .fa-circle-xmark{
+        font-size: 18px;
+}
 
 }
 
@@ -2163,4 +2197,5 @@ justify-content: center;
     background-color: var(--black-color);
     color: var(--wheat-color);
     animation-play-state: paused;
+
 }
