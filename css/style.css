@@ -1953,7 +1953,7 @@ justify-content: center;
     .card{
         width: 75vw;
         padding: 5px;
-        height: 85vh;
+        height: 90vh;
     }
     .card .contant > div > div:first-child{
         width: 60px;
@@ -2199,5 +2199,6 @@ justify-content: center;
     animation-play-state: paused;
 
 }
+
 
 
